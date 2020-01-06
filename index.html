@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection" />
+<meta content="email=no" name="format-detection" />
+<title>仙剑奇侠传</title>
+<meta name="Keywords" content=""/>
+<meta name="description" content=""/>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?416e86cae34c1ed76d47cf9945e0d941";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body id="section1">
+	<div class="wrap">
+    	<!--第一屏-->
+        <div class="page_1"> 
+        	<!--按钮-->
+            <div class="mainShow cf">
+        		<div class="logo  animated fadeInDown"><img src="images/cover_logo.png"></div>
+                <div class="slo">
+                    <a href="javascript:void(0)">
+            			<div class="play" id="playbtn"><span></span></div>
+            		</a> 
+                </div>
+                <div class="gunlun animated fadeInDown infinite"><img src="images/cover_gunlun.png"></div>
+                <div class="websit"><a href="#" target="_blank"><img src="images/cover_index.png" ></a></div>
+                <div class='yu_login'>
+                    <div  class="people_number">1,958，742</div>
+                    <div class="ma_download1">
+                    <lable  class="one"><span class='input_style radio_bg'><input type="radio" name="hot" value="and"></span><strong>安卓</strong></lable>
+                    <lable  class="one"><span class='input_style radio_bg'><input type="radio" name="hot" value="ios"  checked="checked"></span><strong>IOS</strong></lable>
+                </div>
+                    <div class="input1" >
+                    <P ><input name="" type="text"  class="text_content1" value="请输入手机号，并点击开始预约"/></P>
+                </div>
+                    <div class="login_btn"><a href="#"><img src="images/cover_btn.png" ></a></div>
+                </div>
+            </div>
+        </div>
+ 
+        
+        <!--第三屏-->
+        <div class="page_3">
+            <div class="mainShow cf">
+                
+            	<div class="dacheng_img">
+                <div><img src="images/cover_dacheng_img1.png" ></div>
+                <div><img src="images/cover_dacheng_img2.png" ></div>
+                <div><img src="images/cover_dacheng_img3.png" ></div>
+                <div><img src="images/cover_dacheng_img4.png" ></div> 
+            </div>
+            
+            </div>
+        </div>
+
+        <div class="page_7">
+            <div class="mainShow cf">
+                <div class="footer_text">
+                    <p>北京昆仑万维科技股份有限公司</p>
+                    <p>京网文〔2017〕9195-1044号</p>
+                </div>
+            	<div class="footerright"><a href="#section1"><img src="images/btn_28.png" alt=""/></a></div>
+            </div>
+        </div>
+        
+</div>
+
+<!--弹出-->
+<div class="bg" id="bg"></div>
+<div class="openbox" id="mp_play">
+  <div class="closebtn" id="closebtn"></div>
+  <div class="play_sp">
+		<iframe  width="100%" height="100%" id="iframe" src="https://v.qq.com/txp/iframe/player.html?vid=x0760htp3kp" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  </div>
+</div>
+
+<div class="openbox1" id="mp_play1">
+  <div class="closebtn1" id="closebtn1"></div>
+  <div class="play_sp1">
+		<img src="images/ok1.png"  id="img1" />
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/index.js"></script>
+<script text="type/javascript" src="js/input.js"></script>  
+<script>
+    function IsIos(){
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("iPhone", "iPad", "iPod");
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+        }
+        return flag;
+    }
+
+</script>
+</body>
+</html>
